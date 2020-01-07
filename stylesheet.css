@@ -45,7 +45,6 @@ header {
   float: right;
   font-size: 35px;
   padding-top: 4%;
-  /* displayをnoneに指定してください */
   display: none;
 }
 
@@ -66,7 +65,7 @@ header {
 .main-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(img/images.jpg);
-  /* background-size: cover; */
+  background-size: cover;
   color: #fff;
   text-align: center;
 }
