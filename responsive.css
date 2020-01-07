@@ -18,6 +18,10 @@
 }
 
 @media all and (max-width: 680px) {
+  .main-wrapper h1 {
+    font-size: 75px;
+  }
+  
   .panel {
     display: none;
   }
