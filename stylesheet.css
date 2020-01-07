@@ -40,6 +40,15 @@ header {
   float: right;
 }
 
+#menu-icon {
+  color: white;
+  float: right;
+  font-size: 35px;
+  padding-top: 4%;
+  /* displayをnoneに指定してください */
+  display: none;
+}
+
 .panel-list {
   list-style: none;
 }
@@ -160,7 +169,7 @@ header {
   list-style: none;
   flex: auto;
   width: 50%;
-  margin-bottom: 5%;
+  margin: 5% 0;
 }
 
 .service-flex img {
@@ -182,9 +191,10 @@ footer {
 }
 
 .last-panel li {
-  width: 40%;
-  padding: 0 3%;
+  font-size: 20px;
+  width: 50%;
   display: inline-block;
+  float: left;
 }
 
 .last-panel dt , .last-panel dd {
@@ -195,7 +205,7 @@ footer {
   float: left;
   clear: left;
   margin-right: 0.5em;
-  width: 120px;
+  width: 30%;
 }
 
 .last-panel dd {
@@ -204,18 +214,20 @@ footer {
   width: 50%;
 }
 
+.last-panel-left {
+  padding-right: 10%;
+}
+
 #map {
   position: relative;
-  padding-bottom: 75%;
-  height: 0;
-  overflow: hidden;
+  width: 100%;
+  padding-top: 75%;
 }
 
 #map iframe {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100% !important;
-  height: 100% !important;
-  border: 0;
+  width: 100%;
+  height: 100%;
 }
