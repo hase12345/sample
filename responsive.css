@@ -21,7 +21,7 @@
   .main-wrapper h1 {
     font-size: 75px;
   }
-  
+
   .panel {
     display: none;
   }
@@ -50,5 +50,6 @@
 
   .last-panel li {
     width: 100%;
+    font-size: 14px;
   }
 }
