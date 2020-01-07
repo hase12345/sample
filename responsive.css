@@ -1,50 +1,233 @@
-@media all and (max-width: 1000px){
-  .last-panel li {
-    font-size: 1.8vw;
-  }
-
-  .txt p {
-    font-size: 1.4vw;
-    margin-bottom: 5%;
-  }
-
-  .service {
-    margin-bottom: 5%;
-  }
-
-  .last-panel-left{
-    margin-top: 3%;
-  }
+* {
+  box-sizing: border-box;
 }
 
-@media all and (max-width: 680px) {
-  .panel {
-    display: none;
-  }
+li, h1, h2, h3, h4, h5, h6, form, html, p, input, div, body, ul, ol {
+    margin: 0;
+    padding: 0;
+}
 
-  #menu-icon {
-    display: block;
-    margin-right: 5%;
-  }
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
 
-  .bg , .txt {
-    width: 100%;
-  }
+a {
+  text-decoration: none;
+}
 
-  .inner-flex li {
-    width: 100%;
-  }
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
-  .service-flex li {
-    width: 100%;
-    height: 250px;
-  }
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
 
-  .service {
-    margin-bottom: 15%;
-  }
+.logo {
+  float: left;
+}
 
-  .last-panel li {
-    width: 100%;
-  }
+.panel {
+  float: right;
+}
+
+#menu-icon {
+  color: white;
+  float: right;
+  font-size: 35px;
+  padding-top: 4%;
+  /* displayをnoneに指定してください */
+  display: none;
+}
+
+.panel-list {
+  list-style: none;
+}
+
+.panel-list li {
+  display: inline-block;
+  padding: 0 25px;
+}
+
+.panel-list li a {
+  line-height: 65px;
+  color: #fff;
+}
+
+.main-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(img/images.jpg);
+  /* background-size: cover; */
+  color: #fff;
+  text-align: center;
+}
+
+.main-wrapper h1 {
+  font-size: 85px;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-shadow: 0 7px black;
+  padding-bottom: 55px
+}
+
+.vision h1{
+  text-align: center;
+  font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+  padding: 70px 0 20px;
+}
+
+.vision-text {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.message {
+  background-color: #f6f6f6;
+}
+
+.bg {
+  float: left;
+  width: 50%;
+}
+
+.bg img {
+  width: 100%;
+}
+
+.txt {
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+
+.txt h2 {
+  padding: 5%;
+}
+
+.txt p {
+  padding: 0 30px;
+}
+
+.sec-02 .txt {
+  float: left;
+}
+
+.sec-02 .bg {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.inner-flex {
+  display: flex;
+  flex-wrap: wrap;
+  text-align:center;
+}
+
+.inner-flex li {
+  flex: auto;
+  width: 33%;
+  list-style: none;
+  padding: 10%;
+}
+
+.inner-flex img {
+  width: 100%;
+  padding: 10%;
+}
+
+.inner h1 {
+  padding-top: 10%;
+  text-align: center;
+}
+
+.service {
+  text-align: center;
+}
+
+.service h1 {
+  padding-bottom: 5%;
+}
+
+.service-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-flex li {
+  list-style: none;
+  flex: auto;
+  width: 50%;
+  margin: 5% 0;
+}
+
+.service-flex img {
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+}
+
+footer {
+  background-color: rgba(34, 49, 52, 0.9);
+  padding-bottom: 50px;
+}
+
+.last-panel {
+  list-style: none;
+  color: white;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.last-panel li {
+  font-size: 20px;
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+
+.last-panel dt , .last-panel dd {
+  margin-bottom: 20px;
+}
+
+.last-panel dt {
+  float: left;
+  clear: left;
+  margin-right: 0.5em;
+  width: 30%;
+}
+
+.last-panel dd {
+  float: left;
+  margin-left: 1em;
+  width: 50%;
+}
+
+.last-panel-left {
+  padding-right: 10%;
+}
+
+#map {
+  position: relative;
+  width: 100%;
+  padding-top: 75%;
+}
+
+#map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
