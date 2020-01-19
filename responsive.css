@@ -4,7 +4,7 @@
   }
 
   .txt p {
-    font-size: 2vw;
+    font-size: 1.8vw;
     margin-bottom: 5%;
   }
 
@@ -28,7 +28,6 @@
 
   #menu-icon {
     display: block;
-    margin-right: 5%;
   }
 
   .bg , .txt {
