@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   </head>
   <body>
     <!-- header -->
@@ -15,17 +16,17 @@
         <i id="menu-icon" class="fas fa-bars"></i>
         <div class="panel">
           <ul class="panel-list">
-            <li>
+            <li class="top">
               <a href="#">TOP</a>
             </li>
+            <!-- <li>
+              <a href="../VISION/vision.html">VISION</a>
+            </li> -->
             <li>
-              <a href="#">VISION</a>
+              <a href="../MESSAGE/message.html">MESSAGE</a>
             </li>
             <li>
-              <a href="#">MESSAGE</a>
-            </li>
-            <li>
-              <a href="#">MEMBER</a>
+              <a href="../MEMBER/member.html">MEMBER</a>
             </li>
             <li>
               <a href="#">SERVICE</a>
@@ -34,6 +35,25 @@
         </div>
       </div>
     </header>
+    <div class="menu-nav-wrapper">
+      <ul class="menu-nav">
+        <li>
+          <a href="#">TOP</a><i class="fas fa-arrow-right"></i>
+        </li>
+        <li>
+          <span href="#" class="signup-show">VISION</span><i class="fas fa-arrow-right signup-show"></i>
+        </li>
+        <li>
+          <a href="#">MESSAGE</a><i class="fas fa-arrow-right login-move"></i>
+        </li>
+        <li>
+          <a href="#">MEMBER</a><i class="fas fa-arrow-right login-move"></i>
+        </li>
+        <li>
+          <a href="#">SERVICE</a><i class="fas fa-arrow-right login-move"></i>
+        </li>
+      </ul>
+    </div>
     <div class="main-wrapper">
       <div class="container">
         <h1>System Solution</h1>
@@ -41,16 +61,16 @@
       </div>
     </div>
     <!-- Vison -->
-    <div class="vision">
+    <div class="vision" id="vision">
       <h1>VISION</h1>
     </div>
     <div class="vision-text">
       IT×○○で自分のやりたいことを試せるフィールドとチカラを創る。IT×○○で自分のやりたいことを試せるフィールドとチカラを創る。IT×○○で自分のやりたいことを試せるフィールドとチカラを創る。IT×○○で自分のやりたいことを試せるフィールドとチカラを創る。IT×○○で自分のやりたいことを試せるフィールドとチカラを創る。IT×○○で自分のやりたいことを試せるフィールドとチカラを創る。
     </div>
-    <div class="message">
+    <div class="message" id="message">
       <div class="sec-01">
         <div class="bg">
-          <p><img src="img/images.jpeg"></p>
+          <p><img src="../img/images.jpeg"></p>
         </div>
         <div class="txt">
           <h2>MESSAGE</h2>
@@ -61,7 +81,7 @@
 
       <div class="sec-02">
         <div class="bg">
-          <p><img src="img/images.png"></p>
+          <p><img src="../img/images.png"></p>
         </div>
         <div class="txt">
           <h2>MESSAGE</h2>
@@ -71,44 +91,44 @@
       <div class="clear"></div>
     </div>
     <!-- member -->
-    <div class="inner">
+    <div class="inner" id="member">
       <h1>MEMBER</h1>
       <ul class="inner-flex">
         <li>
           <h2>ICON ICON</h2>
-          <img src="img/icon.png">
+          <img src="../img/icon.png">
           <p>ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー</p>
         </li>
         <li>
           <h2>ICON ICON</h2>
-          <img src="img/icon.png">
+          <img src="../img/icon.png">
           <p>ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー</p>
         </li>
         <li>
           <h2>ICON ICON</h2>
-          <img src="img/icon.png">
+          <img src="../img/icon.png">
           <p>ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー</p>
         </li>
       </ul>
     </div>
     <!-- service -->
-    <div class="service">
+    <div class="service" id="service">
       <h1>SERVICE</h1>
       <ul class="service-flex">
         <li>
-          <img src="img/images.jpeg">
+          <img src="../img/images.jpeg">
           <h2>営業部門</h2>
         </li>
         <li>
-          <img src="img/engineer.jpg">
+          <img src="../img/engineer.jpg">
           <h2>SI/SES部門</h2>
         </li>
         <li>
-          <img src="img/インフラ.jpeg">
+          <img src="../img/インフラ.jpeg">
           <h2>インフラ部門</h2>
         </li>
         <li>
-          <img src="img/人材.jpeg">
+          <img src="../img/人材.jpeg">
           <h2>人材派遣部門</h2>
         </li>
       </ul>
@@ -141,5 +161,6 @@
         </ul>
         <div class="clear"></div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
