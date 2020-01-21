@@ -41,13 +41,21 @@ header {
 }
 
 #menu-icon {
-  padding-right: 15px;
   color: white;
   float: right;
-  font-size: 25px;
-  padding: 21px 0;
+  font-size: 30px;
+  padding: 5% 0;
   cursor: pointer;
   display: none;
+}
+
+#menu-cancel{
+  color: white;
+  float: right;
+  font-size: 30px;
+  padding: 5% 0;
+  cursor: pointer;
+  display:none;
 }
 
 .panel-list {
