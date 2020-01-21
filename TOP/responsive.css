@@ -1,0 +1,54 @@
+@media all and (max-width: 1000px){
+  .last-panel li {
+    font-size: 1.8vw;
+  }
+
+  .txt p {
+    font-size: 1.8vw;
+    margin-bottom: 5%;
+  }
+
+  .service {
+    margin-bottom: 5%;
+  }
+
+  .last-panel-left{
+    margin-top: 3%;
+  }
+}
+
+@media all and (max-width: 680px) {
+  .main-wrapper h1 {
+    font-size: 75px;
+  }
+
+  .panel {
+    display: none;
+  }
+
+  #menu-icon {
+    display: block;
+  }
+
+  .bg , .txt {
+    width: 100%;
+  }
+
+  .inner-flex li {
+    width: 100%;
+  }
+
+  .service-flex li {
+    width: 100%;
+    height: 250px;
+  }
+
+  .service {
+    margin-bottom: 15%;
+  }
+
+  .last-panel li {
+    width: 100%;
+    font-size: 14px;
+  }
+}

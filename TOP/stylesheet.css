@@ -1,0 +1,272 @@
+* {
+  box-sizing: border-box;
+}
+
+li, h1, h2, h3, h4, h5, h6, form, html, p, input, div, body, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  float: left;
+}
+
+.panel {
+  float: right;
+}
+
+#menu-icon {
+  padding-right: 15px;
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  cursor: pointer;
+  display: none;
+}
+
+.panel-list {
+  list-style: none;
+}
+
+.panel-list li {
+  display: inline-block;
+  padding: 0 25px;
+  cursor: pointer;
+}
+
+.panel-list li a {
+  line-height: 65px;
+  color: #fff;
+  display: block;
+}
+
+.panel-list li:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+
+.menu-nav {
+  position: fixed;
+  top: 65px;
+  background-color: rgba(34, 49, 52, 0.9);
+  z-index: 100;
+  width: 100%;
+  display: none;
+}
+
+.menu-nav li {
+  padding: 14px 6%;
+}
+
+.menu-nav a, .menu-nav span{
+  display: inline-block;
+  /* padding: 14px 6%; */
+  color: white;
+  cursor: pointer;
+  /* background-image: url("image/矢印アイコン　右4.png");
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: 94% 50%; */
+}
+
+.menu-nav i {
+  display: block;
+  color: white;
+  float: right;
+  cursor: pointer;
+}
+
+.main-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(../img/images.jpg);
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.main-wrapper h1 {
+  font-size: 85px;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-shadow: 0 7px black;
+  padding-bottom: 55px
+}
+
+.vision h1{
+  text-align: center;
+  font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+  padding: 70px 0 20px;
+}
+
+.vision-text {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.message {
+  background-color: #f6f6f6;
+}
+
+.bg {
+  float: left;
+  width: 50%;
+}
+
+.bg img {
+  width: 100%;
+}
+
+.txt {
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+
+.txt h2 {
+  padding: 5%;
+}
+
+.txt p {
+  padding: 0 30px;
+}
+
+.sec-02 .txt {
+  float: left;
+}
+
+.sec-02 .bg {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.inner-flex {
+  display: flex;
+  flex-wrap: wrap;
+  text-align:center;
+}
+
+.inner-flex li {
+  flex: auto;
+  width: 33%;
+  list-style: none;
+  padding: 10%;
+}
+
+.inner-flex img {
+  width: 100%;
+  padding: 10%;
+}
+
+.inner h1 {
+  padding-top: 10%;
+  text-align: center;
+}
+
+.service {
+  text-align: center;
+}
+
+.service h1 {
+  padding-bottom: 5%;
+}
+
+.service-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-flex li {
+  list-style: none;
+  flex: auto;
+  width: 50%;
+  margin: 5% 0;
+}
+
+.service-flex img {
+  width: 100%;
+  height: 100%;
+  padding: 10%;
+}
+
+footer {
+  background-color: rgba(34, 49, 52, 0.9);
+  padding-bottom: 50px;
+}
+
+.last-panel {
+  list-style: none;
+  color: white;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.last-panel li {
+  font-size: 20px;
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+
+.last-panel dt , .last-panel dd {
+  margin-bottom: 20px;
+}
+
+.last-panel dt {
+  float: left;
+  clear: left;
+  margin-right: 0.5em;
+  width: 30%;
+  text-align: right;
+}
+
+.last-panel dd {
+  float: left;
+  margin-left: 1em;
+  width: 50%;
+}
+
+.last-panel-left {
+  padding-right: 10%;
+}
+
+#map {
+  position: relative;
+  width: 100%;
+  padding-top: 75%;
+}
+
+#map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
