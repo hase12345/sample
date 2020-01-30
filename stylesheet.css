@@ -111,7 +111,7 @@ header {
 
 .main-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(../img/images.jpg);
+  background-image: url(./img/images.jpg);
   background-size: cover;
   color: #fff;
   text-align: center;
@@ -145,7 +145,7 @@ header {
 }
 
 .message-bg {
-  background-image: url(../img/-2219267639846434735_IMG_8333.JPG);
+  background-image: url(./img/-2219267639846434735_IMG_8333.JPG);
   background-attachment: fixed;
   background-size: cover;
   height: 1000px;
@@ -273,7 +273,7 @@ header {
   width: 50%;
   float: right;
   padding-top: 110%;
-  background-image: url(../img/business.jpg);
+  background-image: url(./img/business.jpg);
   background-attachment: fixed;
   background-size: cover;
   height: 100%;
