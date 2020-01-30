@@ -67,6 +67,7 @@ header {
 .panel-list li {
   padding: 0 25px;
   cursor: pointer;
+  float: left;
 }
 
 .panel-list li a {
