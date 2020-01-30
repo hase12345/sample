@@ -114,7 +114,6 @@ header {
 }
 
 .member-top {
-
   padding: 12% 5% 3% 5%;
   border-bottom: 1px solid #c3c9c3;
 }
@@ -140,7 +139,7 @@ header {
 }
 
 .member1-bg {
-  background-image: url("../img/IMG_2286.jpg");
+  background-image: url("./img/IMG_2286.jpg");
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -151,10 +150,10 @@ header {
 }
 
 #ogi {
-  background-image: url("../img/S__24322052.jpg");
+  background-image: url("./img/S__24322052.jpg");
 }
 #hase {
-  background-image: url("../img/IMG_5128 2.JPG");
+  background-image: url("./img/IMG_5128 2.JPG");
   background-position: initial;
 }
 
