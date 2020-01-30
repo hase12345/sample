@@ -68,6 +68,7 @@ header {
   padding: 0 25px;
   cursor: pointer;
   float: left;
+  display: inline-block;
 }
 
 .panel-list li a {
