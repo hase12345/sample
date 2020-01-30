@@ -5,6 +5,12 @@ $(function(){
     },'slow');
   });
   
+  $('#service').click(function(){
+    $('html, body').animate({
+      'scrollTop':0
+    },'slow');
+  });
+  
   $('#menu-icon').click(function(){
     $('.menu-nav').slideToggle();
     $('#menu-icon').hide();
