@@ -1,0 +1,47 @@
+@media all and (max-width: 1000px){
+  .last-panel li {
+    font-size: 1.8vw;
+  }
+
+  .txt p {
+    font-size: 1.8vw;
+    margin-bottom: 5%;
+  }
+
+
+  .service-list {
+    font-size: 90%;
+  }
+
+  .last-panel-left{
+    margin-top: 3%;
+  }
+}
+
+@media all and (max-width: 680px) {
+  .panel {
+    display: none;
+  }
+
+  #menu-icon {
+    display: block;
+  }
+
+  .bg , .txt {
+    width: 100%;
+  }
+
+  .service-top {
+    margin-top: 10%;
+  }
+
+  .services h2 {
+    font-size: 150%;
+  }
+
+
+  .last-panel li {
+    width: 100%;
+    font-size: 14px;
+  }
+}
