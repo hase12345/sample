@@ -3,8 +3,8 @@
 }
 
 li, h1, h2, h3, h4, h5, h6, form, html, p, input, div, body, ul, ol {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -41,19 +41,21 @@ header {
 }
 
 #menu-icon {
+  position: absolute;
+  top: 30%;
+  right: 8%;
   color: white;
-  float: right;
   font-size: 30px;
-  padding: 5% 0;
   cursor: pointer;
   display: none;
 }
 
 #menu-cancel{
+  position: absolute;
   color: white;
-  float: right;
+  top: 30%;
+  right: 8%;
   font-size: 30px;
-  padding: 5% 0;
   cursor: pointer;
   display:none;
 }
@@ -92,14 +94,12 @@ header {
 }
 
 .menu-nav a, .menu-nav span{
-  display: inline-block;
-  /* padding: 14px 6%; */
   color: white;
   cursor: pointer;
-  /* background-image: url("image/矢印アイコン　右4.png");
-  background-repeat: no-repeat;
-  background-size: 15px;
-  background-position: 94% 50%; */
+}
+
+.menu-nav li a{
+  display: block;
 }
 
 .menu-nav i {
@@ -111,7 +111,7 @@ header {
 
 .main-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(./img/images.jpg);
+  background-image: url(../img/images.jpg);
   background-size: cover;
   color: #fff;
   text-align: center;
@@ -124,51 +124,64 @@ header {
   padding-bottom: 55px
 }
 
-.vision h1{
+.vision {
   text-align: center;
-  font-family: 'Josefin Sans', 'Noto Sans JP',serif;
-  padding: 70px 0 20px;
-}
-
-.vision-text {
-  width: 60%;
-  margin: 0 auto;
-  padding-bottom: 80px;
-}
-
-.message {
-  background-color: #f6f6f6;
-}
-
-.bg {
-  float: left;
-  width: 50%;
-}
-
-.bg img {
-  width: 100%;
-}
-
-.txt {
-  float: right;
-  width: 50%;
-  text-align: center;
-}
-
-.txt h2 {
+  height: 350px;
   padding: 5%;
 }
 
-.txt p {
-  padding: 0 30px;
+.vision h1{
+  font-family: 'Josefin Sans', 'Noto Sans JP',serif;
 }
 
-.sec-02 .txt {
-  float: left;
+.vision-text {
+  width: 80%;
+  margin: 0 auto;
+  padding: 80px 0;
 }
 
-.sec-02 .bg {
-  float: right;
+.message {
+  position:relative;
+}
+
+.message-bg {
+  background-image: url(../img/-2219267639846434735_IMG_8333.JPG);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 1000px;
+  text-align: left;
+  color: white;
+  background-position: 50% 50%;
+}
+
+.message-bg:before {
+  position: absolute;
+  background-color: rgba(0,0,0,0.4);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+.message-text {
+  position: absolute;
+  top: 10%;
+  left: 8%;
+  width: 50%;
+}
+
+.message-text h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.message-text h2 {
+  font-weight: normal;
+}
+
+.message-text p {
+  margin-bottom: 10%;
 }
 
 .clear {
@@ -179,18 +192,30 @@ header {
   display: flex;
   flex-wrap: wrap;
   text-align:center;
+  margin-bottom: 5%;
 }
 
 .inner-flex li {
   flex: auto;
   width: 33%;
   list-style: none;
-  padding: 10%;
+  padding: 2%;
 }
 
 .inner-flex img {
-  width: 100%;
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
   padding: 10%;
+  object-fit: cover;
+}
+
+#hase {
+  object-position: 50% 0;
+}
+
+.inner-flex h3 {
+  font-size: 100%;
 }
 
 .inner h1 {
@@ -199,32 +224,86 @@ header {
 }
 
 .service {
-  text-align: center;
+  position: relative;
 }
 
-.service h1 {
+.service-all {
+  background-color: white;
+  float: left;
+  width: 50%;
+}
+
+.service-list {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.service-list-left {
+  float: left;
+  width: 50%;
+  padding-top: 40%;
+  position: relative;
+}
+
+.service-list-left img {
+  padding: 0 4%;
+  width: 80%;
+  height: auto;
+  width: 100%;
+  height: 65%;
+  position: absolute;
+  top: 0;
+}
+
+.service-list-right {
+  width: 50%;
+  float: left;
+  padding:0 2%;
+  font-family: "unna", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic", serif;
+  font-size: 105%;
+}
+
+.service-list-right h3{
   padding-bottom: 5%;
 }
 
-.service-flex {
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.service-flex li {
-  list-style: none;
-  flex: auto;
+.service-bg {
+  position: relative;
   width: 50%;
-  margin: 5% 0;
+  float: right;
+  padding-top: 110%;
+  background-image: url(../img/business.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  color: white;
 }
 
-.service-flex img {
+.service-bg:before {
+  position: absolute;
+  background-color: rgba(0,0,0,0.4);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+.service-title {
+  position: absolute;
+  top: 45%;
+  font-size: 200%;
   width: 100%;
-  height: 100%;
-  padding: 10%;
+}
+
+.service-title h2 {
+  margin-bottom: 5%;
 }
 
 footer {
+  padding-top: 5%;
   background-color: rgba(34, 49, 52, 0.9);
   padding-bottom: 50px;
 }
