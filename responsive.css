@@ -79,6 +79,7 @@
   .service-bg {
     width: 100%;
     padding-top: 60%;
+    background-attachment: inherit;
   }
 
   .service-title {
@@ -119,7 +120,6 @@
   .service-list-right {
     width: 100%;
     font-size: 150%;
-    background-attachment: inherit;
   }
 
   .service-list-right h3 {
