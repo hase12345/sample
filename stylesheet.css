@@ -170,6 +170,7 @@ header {
   top: 10%;
   left: 8%;
   width: 50%;
+  opacity: 0.8;
 }
 
 .message-text h1 {
