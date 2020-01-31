@@ -55,6 +55,7 @@
     height: 1300px;
     zoom: 0.5;
     font-size: 150%;
+    background-attachment: inherit;
   }
 
   .message-text {
