@@ -62,7 +62,6 @@
     width: 100%;
     padding: 10%;
     left: 0;
-    opacity: 0.8;
   }
 
   .message-text h1 {
@@ -120,6 +119,7 @@
   .service-list-right {
     width: 100%;
     font-size: 150%;
+    background-attachment: inherit;
   }
 
   .service-list-right h3 {
