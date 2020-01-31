@@ -53,6 +53,9 @@
   
   .message-bg {
     height: 1300px;
+    zoom: 0.5;
+    background-attachment: none;
+    font-size: 150%;
   }
 
   .message-text {
@@ -60,6 +63,9 @@
     padding: 10%;
     left: 0;
   }
+  
+  .message-text h1 {
+    font-size:200%;
 
   .inner-flex li {
     width: 100%;
