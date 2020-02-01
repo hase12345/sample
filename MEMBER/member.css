@@ -165,11 +165,14 @@ header {
 .member1-text {
   display: inline-block;
   font-size: 18px;
-  padding-top: 8%;
-  padding-left: 4%;
+  margin-left: 4%;
   float: right;
   width: 50%;
   line-height: 2em;
+}
+
+.member1-text h3 {
+  padding: 5% 0;
 }
 
 footer {
