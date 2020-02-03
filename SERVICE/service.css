@@ -206,3 +206,14 @@ footer {
 .clear {
   clear: both;
 }
+
+.copywright{
+  color: white;
+  border-top: 1px solid white;
+  width: 90%;
+  margin: 1% auto;
+}
+
+.copywright p {
+  padding: 1% 0;
+}
