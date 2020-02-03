@@ -277,7 +277,7 @@ header {
   position: relative;
   width: 50%;
   float: right;
-  padding-top: 100%;
+  padding-top: 90%;
   background-image: url(./img/business.jpg);
   background-attachment: fixed;
   background-size: cover;
