@@ -73,7 +73,7 @@
   }
 
   .service {
-    margin: 10% 0;
+    padding-bottom: 10%;
   }
 
   .service-bg {
@@ -129,5 +129,14 @@
   .last-panel li {
     width: 100%;
     font-size: 14px;
+  }
+  
+  .wantedly {
+    display: none;
+  }
+
+  .wantedly-responsive {
+    display: block;
+    text-align: center;
   }
 }
