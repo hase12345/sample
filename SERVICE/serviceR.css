@@ -44,4 +44,8 @@
     width: 100%;
     font-size: 14px;
   }
+  
+  .copywright p {
+    font-size: 80%;
+  }
 }
