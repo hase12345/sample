@@ -188,6 +188,28 @@ footer {
   padding-right: 10%;
 }
 
+.blog {
+  padding: 5%;
+  width: 50%;
+  float: left;
+}
+
+.blog h1 {
+  color: white;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.wantedly {
+  width: 50%;
+  padding: 5%;
+  float: right;
+}
+
+.wantedly-responsive {
+  display: none;
+}
+
 #map {
   position: relative;
   width: 100%;
