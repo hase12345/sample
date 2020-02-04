@@ -16,6 +16,15 @@
   .last-panel-left{
     margin-top: 3%;
   }
+  
+  .blog {
+    width: 100%;
+  }
+
+  .wantedly {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media all and (max-width: 680px) {
