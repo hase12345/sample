@@ -130,6 +130,10 @@
     width: 100%;
     font-size: 150%;
   }
+  
+  .copywright p {
+    font-size: 80%;
+  }
 
   .service-list-right h3 {
     padding-bottom: 1%;
