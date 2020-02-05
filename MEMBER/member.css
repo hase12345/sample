@@ -146,13 +146,13 @@ header {
   border-radius: 50%;
   background-position: center center;
   display: inline-block;
-  zoom:0.5;
   background-size: cover;
 }
 
 #ogi {
   background-image: url("../img/S__24322052.jpg");
 }
+
 #hase {
   background-image: url("../img/IMG_5128 2.JPG");
   background-position: initial;
